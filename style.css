@@ -1,8 +1,8 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
+    text-transform: capitalize;
 }
 
 .nav-bar {
@@ -94,25 +94,28 @@
     text-decoration: underline;
 }
 
-
-
-
 /*hero section*/
 
 .background {
     background-image: url("./images/background.jpg");
-    height: 65vh;
-    background-size: cover;
-    background-position: center;
+    height: 80vh;
+    background-size:cover;
+    background-position: top-center;
+    background-repeat: no-repeat;
 }
-
-.heading {
-    height: 60vh;
+ .heading{
+    height: 3.5rem;
     background-color: #003366;
     color: #ffffff;
 }
 
-.heading p {
+.about-us {
+    padding: 2rem;
+     background-color: #003366;
+    color: #ffffff;
+}
+.about-us p {
+    padding-top: 2rem;
     color:#f0f8ff;
 }
 
@@ -143,16 +146,9 @@
     padding: 2rem;
     background-color: white;
     color: #1E3A8A;
-    height: 20vh;
 }
 
-/*Card background: #e6f0ff (light blue)
 
-Border: #99c2ff
-
-Heading Text: #003366 (Dark Blue)
-
-Body Text: #333333*/
 
 .feature-option {
     padding: 1rem;
@@ -183,18 +179,10 @@ Body Text: #333333*/
     transform: translateY(-5px);
 }
 
-.location {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem;
-    background-color: white;
-    color: #1E3A8A;
-}
+
 
 .location {
-  background-color: white;
+  background-color: #f0f4ff;
   padding: 60px 20px;
   text-align: center;
 }
